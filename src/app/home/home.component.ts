@@ -18,4 +18,7 @@ export class HomeComponent {
   onSelect(hero: students): void {
     this.selectedHero = hero;
   }
+  showname(age: number) {
+    alert(age);
+  }
 }
